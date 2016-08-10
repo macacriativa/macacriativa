@@ -1,0 +1,47 @@
+.set-variables() when (@use-variables = false){}
+.set-variables() when (@use-variables = true){
+	@import '../bootstrap/variables.less';
+}
+.set-variables();
+
+.set-mixins() when (@use-mixins = false){}
+.set-mixins() when (@use-mixins = true){
+	@import '../bootstrap/mixins.less';
+}
+.set-mixins();
+
+.set-utilities() when (@use-utilities = false){}
+.set-utilities() when (@use-utilities = true){
+	@import '../bootstrap/utilities.less';
+}
+.set-utilities();
+
+.set-reset() when (@use-reset = false){}
+.set-reset() when (@use-reset = true){
+	@import 'reset.less';
+}
+.set-reset();
+
+.set-custom-variables() when (@use-custom-variables = false){}
+.set-custom-variables() when (@use-custom-variables = true){
+	@import 'custom-variables.less';
+}
+.set-custom-variables();
+
+.set-custom-mixins() when (@use-custom-mixins = false){}
+.set-custom-mixins() when (@use-custom-mixins = true){
+	@import 'custom-mixins.less';
+}
+.set-custom-mixins();
+
+.set-glyphicons() when (@use-glyphicons = false){}
+.set-glyphicons() when (@use-glyphicons = true){
+	@import '../bootstrap/glyphicons.less';
+}
+.set-glyphicons();
+
+.set-font-awesome() when (@use-font-awesome = false){}
+.set-font-awesome() when (@use-font-awesome = true){
+	@import 'font-awesome.less';
+}
+.set-font-awesome();

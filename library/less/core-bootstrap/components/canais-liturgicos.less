@@ -1,0 +1,283 @@
+body.home,
+body.single {
+  #content-post {
+    .make-md-column(8);
+  }
+  #sidebar {
+    .make-md-column(4);
+  }
+}
+
+#wrap-header {
+  #header-content #signature h1 .tipo {
+    text-shadow: none;
+  }
+}
+
+.content-header {
+  position: relative;
+  border-top: 1px solid #eee;
+  margin-bottom: 20px;
+  .vertical-strip {
+    #gradient > .vertical-three-colors(darken(@grayLighter,5%), lighten(@grayLighter,3%), 15%, @grayLighter);
+
+    float: right;
+    width: 50px;
+    height:60px ;
+    top: -1px;
+    margin: 0 15px -5px;
+    padding: 7px 8px 15px;
+    color: @gray;
+    text-shadow: 0 1px 1px @white;
+    span {
+      float: left;
+      display: block;
+      width: 100%;
+      font-family: LatoLight;
+      color: darken(@gray,10%);
+      //color: @white;
+      text-align: center;
+      z-index: 99;
+    }
+    .dia {
+      font-size:28px;
+      line-height: 22px;
+    }
+    .mes {
+      font-size:14px;
+      line-height: 14px;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+    }
+    .ano {
+      font-size: 12px;
+      line-height: 12px;
+      letter-spacing: .025em;
+    }
+    @media (max-width: @screen-xs-max) {
+      margin-right: 10px !important;
+    }
+  }
+  .entry-title {
+    padding-left: 15px;
+    font-family: LatoRegular;
+    color: @blueDark;
+    font-size: 28px;
+  }
+}
+
+#sidebar {
+  .widget-title {
+    font-family: LatoBold;
+  }
+
+  #select-search {
+    float: left;
+    width: 100%;
+    margin:0 0 20px 0;
+    position: relative;
+    border: 1px solid #cccccc;
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    .buscar {
+      background: transparent url("@{baseSpritePath}") no-repeat scroll 2px -35px;
+      background-size: 85% auto;
+      border: medium none;
+      display: block;
+      float: left;
+      height: 30px;
+      margin-left: 10px;
+      outline: medium none;
+      overflow: hidden;
+      position: relative;
+      text-indent: -9999px;
+      width: 30px;
+      border: 1px solid @grayLight;
+      border-radius: 4px;
+    }
+    .widget-title {
+      position: relative;
+      float: left;
+      width:100%;
+      margin: 0;
+      padding-left: 10px;
+      font-family: "LatoBlack";
+      font-size: 14px;
+      color: #005c99;
+      text-transform: uppercase;
+      border: none;
+      border-left: 4px solid #005c99;
+      border-radius: 4px 0 0 0;
+      line-height: 36px;
+      border-bottom: 1px solid #cccccc;
+      box-sizing: border-box;
+    }
+    .search-by {
+      font-family: LatoRegular, Arial;
+      line-height: 20px;
+      letter-spacing: .1em;
+      text-transform:uppercase;
+      font-size: 9px;
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      color: #888;
+      font-size: 9px;
+    }
+    .santodia {
+        float: left;
+        width: 100%;
+        margin: 20px 0;
+        position: relative;
+    }
+    select {
+      float: left;
+      margin-left: 10px;
+      padding: 4px 0;
+      position: relative;
+    }
+    .select-dia {
+      width: 20%;
+    }
+    .select-mes {
+      width: 40%;
+    }
+  }
+}
+
+@media(max-width: @screen-xs-max) {
+  .content-header {
+    .entry-title {
+      font-size: 24px;
+    }
+  }
+}
+
+@media(min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+  #menu-site {
+    .menu {
+      li.menu-item {
+        a {
+          padding: 0 4px;
+        }
+      }
+    }
+  }
+}
+
+@media(min-width: @screen-sm-min) {
+  #menu-site {
+    .menu {
+      > li.menu-item {
+        width: auto;
+      }
+    }
+  }
+}
+
+
+// INSERÇÃO do item APP LITURGIA no menu
+@media(min-width: @screen-sm-min) {
+  #menu-site {
+    .menu {
+      li.menu-aplicativo {
+        margin-left: 3px;
+        border-radius: 3px;
+        background-color: #02677a;
+        width: 84px;
+        a {
+          color: @white;
+          text-shadow: none;
+          text-shadow: none;
+          border-left: 0;
+          line-height: 12px;
+          padding-left: 20px;
+        }
+        .fa;
+        .fa-mobile;
+        &:before {
+          color: #01D8C1;
+          position: absolute;
+          top: 0;
+          font-size: 28px;
+          left: 4px;
+        }
+        &:hover {
+          background-color: #03798f;
+        }
+      }
+    }
+  }
+}
+
+
+// Página Divulgação do Banner do Aplicativo
+.page-template-app_liturgia {
+  #wrap {
+    #content {
+      #content-post {
+        width: 100%;
+        .entry-content {
+          .app-android,
+          .app-ios {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            height: 90px;
+          }
+          .app-android {
+            margin-top: 10px;
+            background: url("../../images/button-download-android.png") no-repeat;
+            background-position: top center;
+          }
+          .app-ios {
+            background: url("../../images/button-download-ios.png") no-repeat;
+            background-position: top center;
+          }
+          .title {
+            margin: 20px 0;
+            padding-bottom: 6px;
+            font-family: LatoRegular, Arial, sans-serif;
+            font-size: 28px;
+            color:@blueDark;
+            line-height: 30px;
+            border-bottom: 1px solid #eeeeee;
+          }
+          .mensagem {
+            color: @gray;
+          }
+          .banner,
+          form {
+            float: left;
+            width: 50%;
+            margin-top: 30px;
+            text-align: center;
+          }
+          form {
+            min-height: 260px;
+            #texto {
+              width: 100%;
+              height: 210px;
+              font-family: LatoRegular, Arial, sans-serif;
+              color: @gray;
+              border: 1px solid @blueDark;
+            }
+            #mensagem {
+              font-family: LatoBold, Arial, sans-serif;
+              font-size: 20px;
+              line-height: 30px;
+              text-align: center;
+            }
+          }
+          @media(max-width:@screen-sm-max) {
+            .banner,
+            form {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

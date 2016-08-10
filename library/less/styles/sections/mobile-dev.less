@@ -1,0 +1,41 @@
+.mobile-dev {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	background-color: #f9f9f9;
+	padding: 30px 0;
+}
+
+.mobile-dev__img,
+.mobile-dev__description {
+	.make-lg-column(6);
+}
+
+.mobile-dev__img {
+	background-image: url('../images/iphone.png');
+	height: 380px;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mobile-dev__hover {
+	position: absolute;
+	display: block;
+	width: 146px;
+	height: 272px;
+	left: 0;
+	right: 0;
+	top: 65px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-image: url('../images/mobile.png');
+	background-attachment: scroll;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-position 12s ease 0s;
+
+	.mobile-dev__hover--img {
+	}
+}

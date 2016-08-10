@@ -1,0 +1,69 @@
+// Página Divulgação do Aplicativo
+body.page-template-app_liturgia {
+  #wrap {
+    #content {
+      #content-post {
+        width: 100%;
+        .entry-content {
+          .app-android,
+          .app-ios {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            height: 90px;
+          }
+          .app-android {
+            margin-top: 10px;
+            background: url("../../images/button-download-android.png") no-repeat;
+            background-position: top center;
+          }
+          .app-ios {
+            background: url("../../images/button-download-ios.png") no-repeat;
+            background-position: top center;
+          }
+          .title {
+            margin: 20px 0;
+            padding-bottom: 6px;
+            font-family: LatoRegular, Arial, sans-serif;
+            font-size: 28px;
+            color:@blueDark;
+            line-height: 30px;
+            border-bottom: 1px solid #eeeeee;
+          }
+          .mensagem {
+            color: @gray;
+          }
+          .banner,
+          form {
+            float: left;
+            width: 50%;
+            margin-top: 30px;
+            text-align: center;
+          }
+          form {
+            min-height: 260px;
+            #texto {
+              width: 100%;
+              height: 210px;
+              font-family: LatoRegular, Arial, sans-serif;
+              color: @gray;
+              border: 1px solid @blueDark;
+            }
+            #mensagem {
+              font-family: LatoBold, Arial, sans-serif;
+              font-size: 20px;
+              line-height: 30px;
+              text-align: center;
+            }
+          }
+          @media(max-width:@screen-sm-max) {
+            .banner,
+            form {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+// Módulo Widget Container
+// --------------------------------------------------
+.widget-container {
+  position: relative;
+  float: left;
+  display: block;
+  width:100%;
+  margin-bottom:20px;
+  .widget-title {
+    margin: 0;
+    padding: 10px;
+    font-family: LatoBlack;
+    font-size: 14px;
+    color: @blueDark;
+    text-transform: uppercase;
+    border: 1px solid @grayLight;
+    border-bottom: 0;
+    border-left: 3px solid @blueDark;
+    border-radius: 4px 4px 0 0;
+    background-color: #fff;
+  }
+  ul {
+    width:100%;
+    overflow: hidden;
+    margin:0;
+    padding: 0 10px;
+    border: 1px solid @grayLight;
+    border-bottom-width: 2px;
+    border-radius: 0 0 4px 4px;
+    background-color: #fff;
+    li {
+      .transition(all .15s ease-in-out);
+
+      width:100%;
+      overflow: hidden;
+      font-size:13px;
+      border-bottom: 1px solid lighten(@grayLight,10%);
+      a {
+        position: relative;
+        float: left;
+        display: block;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: LatoRegular;
+        font-size: 13px;
+        color: @gray;
+        line-height: 18px;
+        vertical-align: middle;
+        text-decoration: none;
+      }
+      ul {
+        display: block;
+        overflow: visible;
+        margin-top: 40px;
+        li {
+          height: auto;
+          color: @gray;
+          border-top: 1px dotted darken(@grayLighter,10%);
+          border-bottom:0;
+          a {
+            font-weight: normal !important;
+            &:after {
+              content: "\2014";
+              position: absolute;
+              left:6px;
+              font-weight: normal;
+              color: darken(@grayLighter, 10%);
+              line-height: 1;
+
+              -webkit-font-smoothing: antialiased;
+              speak: none;
+            }
+          }
+          .children {
+            text-indent: 25px;
+          }
+        }
+      }
+      &:hover{
+      	color: @grayDark;
+      }
+    }
+    li {
+      a:hover {color: lighten(@blueDark,10%);
+      }
+    }
+  }
+  #more-posts {
+    margin-bottom: 5px;
+    a {
+      margin-right: 8px;
+      font-size: 12px;
+      color: @gray;
+      text-decoration: none;
+      text-transform: lowercase;
+    }
+  }
+  .textwidget {
+    position: relative;
+    float: left;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    font-family: LatoRegular;
+    font-size: 13px;
+    color: @gray;
+    line-height: 18px;
+    vertical-align: middle;
+    text-decoration: none;
+  }
+}

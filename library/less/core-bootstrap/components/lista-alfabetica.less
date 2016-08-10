@@ -1,0 +1,106 @@
+/*Listagem por ordem alfabetica*/
+
+body.page {
+  .row {
+    position: relative;
+  }
+  .entry-content {
+    position: relative;
+    #contatos {
+      margin-left:0;
+      float: left;
+      margin-left: 0;
+      margin-top: 40px;
+      position: relative;
+      h2 {
+        padding: 10px 0;
+        font-size: 18px;
+        line-height: 1.5em;
+        text-transform: uppercase;
+        color: @gray;
+        text-align: center;
+      }
+      .letra {
+        display: block;
+        float: left;
+        width: 100%;
+        text-align: center;
+        em {
+          display: inline-block;
+          margin: 20px;
+          color: @white;
+          font-family: LatoBold, Arial, sans-serif;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          border-radius: 50%;
+          background-color: @blueDark;
+        }
+      }
+      .list-item {
+        .make-md-column(6);
+        margin-bottom:20px;
+        float: left;
+        min-height: 200px;
+      }
+      .thumbnail {
+        border-top: 1px solid darken(@grayLighter, 10%);
+        display: block;
+        img {
+          float: left;
+          margin: 20px 10px 0 0;
+        }
+        h3 {
+          font-family: LatoBold, Arial, sans-serif;
+          font-size: 24px;
+        }
+        p {
+          font-family: LatoRegular, Arial, sans-serif;
+          font-size: 16px;
+          color: @grayDark;
+        }
+        &:hover {
+          text-decoration: none;
+          h3 {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+nav.alfabeto {
+  position: absolute;
+  width:100%;
+  padding-top: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: 1px solid darken(@grayLighter, 10%);
+  ul {
+    margin: 0;
+    li {
+      display: inline-block;
+      width: 30px;
+      color: @gray;
+      margin-bottom: -1px;
+      a {
+        position: relative;
+        display: block;
+        width: 30px;
+        padding: 10px;
+        border-bottom: 1px solid darken(@grayLighter, 10%);
+        &:hover {
+          text-decoration: none;
+          border-bottom-color: @blueDark;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: @screen-xs-max) {
+  div.santos {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}

@@ -1,0 +1,286 @@
+#wrap {
+  padding-bottom: 80px;
+}
+
+#related_post_container {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+#sidebar {
+  margin-top: 40px;
+}
+
+.modified {
+  display: none;
+}
+
+#content-post {
+  position: relative;
+  float: left;
+
+  article {
+    margin:0;
+    padding:0;
+  }
+
+  .entry-content {
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+    float: left;
+    font-family: LatoRegular, latoRegular, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: darken(@grayDark,10%);
+
+    img {
+      border-radius:3px;
+    }
+
+    b,
+    strong {
+      font-weight: normal;
+      font-family: LatoBold, sans-serif;
+    }
+
+    i,
+    em {
+      font-style: normal;
+      font-family: LatoItalic, sans-serif;
+    }
+
+    b i,
+    b em,
+    i b,
+    em b,
+    strong i,
+    strong em,
+    i strong,
+    em strong {
+      font-style: normal;
+      font-weight: normal;
+      font-family: LatoBoldItalic, sans-serif;
+    }
+
+    iframe{
+      max-width: 100%;
+    }
+
+    blockquote{
+      border-bottom: 3px solid #ccc;
+      border-left: 0 none;
+      border-top: 3px solid #ccc;
+      color: @gray;
+      font-family: Georgia,Times New Roman,serif;
+      font-style: italic;
+      margin: 10px 10px 10px 0;
+      padding: 10px;
+      width: 44%;
+      float: left;
+      p{
+        line-height: 1.5;
+      }
+      @media(max-width: @screen-xs-max){
+        p{
+          font-size: 15px;
+        }
+      }
+      @media (max-width: 599px){
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  div.entry-content {
+    h3, h4, h5, h6 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    h2 {
+      color: darken(@grayDark, 15%);
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+}
+
+
+//
+// Wordpress Content Classes
+// --------------------------------------------------
+
+.aligncenter {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+.alignleft { float:left; }
+.alignright { float:right; }
+.wp-caption {
+  border:none;
+  background: #eeeeee;
+  text-align:center;
+  padding:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  max-width: 100%;
+}
+.wp-caption img {margin: 0;}
+
+/** START WordPress-Defined CSS Classes **/
+.wp-caption-text{ margin: 5px 0 0 0 !important; font-size: 12px; }
+.gallery-caption{}
+.bypostauthor{}
+.sticky{}
+/** Keep drop-downs working **/
+#access li {
+  float: left;
+  position: relative;
+}
+#access ul ul {
+  display: none;
+  float: left;
+  position: absolute;
+  top: 3.333em;
+  left: 0;
+  z-index: 99999;
+}
+#access ul ul ul {
+  left: 100%;
+  top: 0;
+}
+#access ul li:hover > ul {
+  display: block;
+}
+
+.wp-caption.alignleft, img.alignleft {margin: 0 10px 10px 0;}
+.wp-caption.alignright, img.alignright {margin: 0 0 10px 10px;}
+
+
+// Header Single / Pages Default
+// --------------------------------------------------
+
+.headerSingleDefault(){
+  .content-header {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    border-bottom: 1px solid @grayLight;
+  }
+  .entry-subtitle {
+    margin: 10px 0 0;
+    font-family: LatoRegular,sans-serif;
+    font-size: 13px;
+    color: #a2a2a2;
+    line-height: 20px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .entry-title {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    font-family: LatoRegular,sans-serif;
+    font-size: 28px;
+    color: #005c99;
+    line-height: 30px;
+  }
+
+  .entry-meta {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
+
+    ul {
+      margin:0;
+      padding:0;
+    }
+  }
+
+  .date-posts {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0;
+    font-family: LatoRegular,sans-serif;
+    font-size: 11px;
+    color: #555;
+    text-align: left;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  .modified {
+    position: relative;
+    float: left;
+    width: 100%;
+    font-family: LatoItalic;
+    letter-spacing: 0;
+  }
+}
+
+
+//
+// Publicidade
+// --------------------------------------------------
+
+#sidebar {
+  .ads-widget {
+    @media (min-width: 330px) {
+      .dotted;
+    }
+    min-width: 300px;
+    margin-bottom: 20px;
+    padding: 0;
+    .widget-title {
+      float: left;
+      width: auto;
+      padding: 5px;
+      font-family: LatoRegular;
+      font-size: 9px;
+      color: lighten(@grayDark,10%);
+      line-height: normal;
+      border-bottom: 0;
+      background: @grayLighter;
+      span {
+        line-height: normal;
+        border-bottom: 0;
+      }
+    }
+    .textwidget {
+      float: none;
+      display: block;
+      width: 300px;
+      margin: 0 auto;
+      padding: 10px 0;
+    }
+  }
+}
+
+
+//
+// Facebook Comments
+// --------------------------------------------------
+
+p.count-comments,
+h3.title-comments {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+h3.title-comments {
+  color: @blueDark;
+}
+
+.fb_iframe_widget {float: left;}
+
+.fb-comments, .fb-comments iframe[style], .fb-like-box, .fb-like-box iframe[style] {width: 100% !important;}
+.fb-comments span, .fb-comments iframe span[style], .fb-like-box span, .fb-like-box iframe span[style] {width: 100% !important;}
+

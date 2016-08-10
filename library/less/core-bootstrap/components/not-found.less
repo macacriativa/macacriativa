@@ -1,0 +1,45 @@
+// Error 404 Not Found
+// --------------------------------------------------
+article.error404 {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid @grayLighter;
+  .make-sm-column(8);
+  .make-sm-column-push(2);
+
+  .entry-title {
+    color: @blueDark;
+    display: inline-block;
+    margin-bottom: 40px;
+    font-family: LatoRegular, sans-serif;
+  }
+  p {
+    font-size: 18px;
+    width: 60%;
+    margin: 0 20%;
+    font-family: LatoRegular, sans-serif;
+  }
+
+  #searchform {display: none;}
+}
+
+#side-error404 {
+  .make-sm-column(6);
+  float: none !important;
+  margin: 0 auto;
+  clear: both;
+}
+
+.error404-menu {
+  position: relative;
+  float: none;
+  margin-top: 40px;
+  li {
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 5px;
+  }
+  li+li { border-left: 1px solid @grayLighter;}
+}
