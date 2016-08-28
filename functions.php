@@ -14,6 +14,7 @@
 /*------------------------------------*\
 	Theme Support
 \*------------------------------------*/
+add_filter( 'the_content', 'attachment_image_link_remove_filter' ); function attachment_image_link_remove_filter( $content ) { $content = preg_replace( array('{<a(.*?)(wp-att|wp-content\/uploads)[^>]*><img}', '{ wp-image-[0-9]*" /></a>}'), array('<img','" />'), $content ); return $content; }
 
 
 if (!isset($content_width))
@@ -62,6 +63,27 @@ if (function_exists('add_theme_support'))
 /*------------------------------------*\
 	Functions
 \*------------------------------------*/
+
+
+function getCategoryLink($category){
+$categoryId = get_cat_ID($category);
+$categoryLink = get_category_link($categoryId);
+return $categoryLink;
+}
+
+function get_the_categories( $parent = 2 ) 
+{
+    $categories = get_categories( "hide_empty=0&parent=$parent" );
+
+    if ( $categories ) {
+        foreach ( $categories as $cat ) {
+            if ( $cat->category_parent == $parent ) {
+                echo '<a data-filter=".' . $cat->slug . '" class="btn" >' . $cat->name . '</a>';
+                get_the_categories( $cat->term_id );
+            }
+        }
+    }
+}
 
 // HTML5 Blank navigation
 function html5blank_nav()

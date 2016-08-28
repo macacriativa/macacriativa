@@ -5,7 +5,7 @@
 				Nossa Missão
 			</h2>
 			<p class="our-mission__description">
-				Nós conectamos sua empresa ao mundo e fazemos com que ela esteja cada vez mais perto de seus cliente.
+				Conectar sua empresa ao mundo e fazer com que você fique mais perto de seus clientes.
 			</p>		
 		</div>	
 	</div>

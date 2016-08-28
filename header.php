@@ -9,15 +9,7 @@
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
 		<?php wp_head(); ?>
-		<script>
-        // conditionizr.com
-        // configure environment tests
-        conditionizr.config({
-            assets: '<?php echo get_template_directory_uri(); ?>',
-            tests: {}
-        });
-        </script>
-
+		
 	</head>
 	<?php if(isset($_POST['scrollPosition'])): ?>
 
@@ -59,27 +51,24 @@
 			<div class="header__bottom" id="menu-navbar">
 		        <div class="header__bottom--logo">
 		            <a href="<?php echo home_url(); ?>">
-		                <img src="<?php echo get_stylesheet_directory_uri(); ?>/library/images/logo.png" alt="Maçã Criativa" id="logotop">
+		                <img src="<?php echo get_stylesheet_directory_uri(); ?>/library/images/logo.png" alt="Maçã Criativa">
 		            </a>
 		        </div>
 		        <div class="header__bottom--navbar">
 		            <nav class="navbar navbar-default">
                         <ul class="nav navbar-nav">
                             <li class="active">
-                                <a href="<?php echo home_url(); ?>" class="dropdown-toggle " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home
+                                <a href="<?php echo home_url(); ?>" class="dropdown-toggle">Home
                                 </a>   
                             </li>
                             <li>
-                                <a href="<?php echo get_site_url()."/category/portifolio"?>" class="hvr-underline-from-center">Portifólio</a>
-                            </li>
-                            <li>
-                                <a href="<?php echo get_site_url()."/quem-somos"?>" class="hvr-underline-from-center">Quem Somos</a>
+                                <a href="<?php echo getCategoryLink('portifolio'); ?>" class="hvr-underline-from-center">Portifólio</a>
                             </li>
                             <li>
                                 <a href="<?php echo get_site_url()."/servicos"?>" class="hvr-underline-from-center">Serviços</a>
                             </li>
                             <li>
-                                <a href="<?php echo get_site_url()."/contatos"?>" class="hvr-underline-from-center">Contato</a>
+                                <a href="<?php echo get_site_url()."/contato"?>" class="hvr-underline-from-center">Contato</a>
                             </li>                                       
                         </ul>		               
 		            </nav>

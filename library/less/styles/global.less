@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: 'LatoRegular', sans-serif;
+	font-family: "open sans",arial,sans-serif;
 }
 
 a:hover {
@@ -23,13 +23,16 @@ a:hover {
 	}
 }
 
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i';
+
 .container__title(@color, @colorLine, @size) {
 	.container__title {
 		color: @color;
 		text-align: center;
 		margin-top: 0;
-		margin-bottom: 20px;
-		padding: 0 15px;
+		margin-bottom: 40px;
+		padding: 0 25px;
+		text-transform: uppercase;
 		&:after {
 			content: "";
 			position: relative;
@@ -51,4 +54,73 @@ a:hover {
 	.wrapper {
 		padding-top: 0;
 	}
+}
+
+.footer__overlay {
+	background: #13151a;
+    text-align: center;
+    padding: 30px 0;
+
+    .copyright {
+    	font-size: 12px;
+	    color: #b4b4b4;
+	    text-transform: uppercase;
+	    font-weight: 600;
+	    line-height: 20px;
+	    letter-spacing: 2px;
+    }
+
+    .list-social {
+    	display: inline-block;
+	    overflow: hidden;
+	    margin-bottom: 0;
+	    margin-top: 15px;
+	    a {
+	    	display: inline-block;
+    	    float: left;
+    	    color: #b4b4b4;
+    	    font-size: 20px;
+    	    margin: 0 15px;
+	    }
+	}
+}
+
+.particle-js {
+	position: relative;
+	height: 180px;
+	display: block;
+	background: #1969e5;
+	margin-bottom: 35px;
+
+	.particle__title {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		display: block;
+		font-size: 50px;
+		color: #fff;
+		margin: auto;
+		text-align: center;
+		line-height: 180px;
+	}
+}
+
+.container.container-single {
+	min-height: 500px;
+	margin-bottom: 30px;
+
+	p{
+		font-size: 18px;
+	    line-height: 1.6;
+	    color: #333;		
+	}
+}
+
+
+@media (min-width: 992px) {
+	.container.container-single {
+		width: 970px;
+	}	
 }

@@ -1,13 +1,18 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-				<div class="container">
-					<div class="row">
-						<!-- copyright -->
-						<p class="copyright">
-							&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-							<a href="//wordpress.org" title="WordPress">Maça Criativa</a>
-						</p>
-						<!-- /copyright -->
+				<div class="footer__overlay">
+					<div class="container">
+						<div class="row">
+							<!-- copyright -->
+							<p class="copyright">
+								&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>
+							</p>
+							<!-- /copyright -->
+							<div class="list-social">
+	                            <a href="https://www.facebook.com/amacacriativa/" target="_blank" class="fa fa-facebook"></a>
+	                            <a href="https://www.instagram.com/macacriativa/" target="_blank" class="fa fa-instagram"></a>
+	                        </div>							
+						</div>
 					</div>
 				</div>								
 
@@ -30,6 +35,8 @@
 
 
 		<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+		<script type='text/javascript' src='<?php echo get_stylesheet_uri(); ?>/../library/js/particle.js?ver=2.2.0'></script>
 
 		<script type='text/javascript' src='<?php echo get_stylesheet_uri(); ?>/../library/js/jquery.counterup.min.js?ver=2.2.0'></script>
 

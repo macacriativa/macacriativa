@@ -1,9 +1,6 @@
 .contact {
-	padding: 20px 0 25px;
-	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-  
-  .container__title(#f3f3f3, #fbf9f9, 20%);
-  
+  margin-bottom: 40px;
+
   .form-group {
     margin-bottom: 0;
   }
@@ -27,19 +24,23 @@
 }
 
 .contact__form--button {
+  position: relative;
   display: block;
-  text-transform: uppercase;
-  background: #fff;
-  color: #969696;
-  border-color: #969696;
-  font-family: LatoBold;
-  width: 200px;
-  height: 36px;
   margin: 0 auto;
+  font-size: 14px;
+  line-height: 13px;
+  margin-bottom: 5px;
+  min-width: 80px;
+  padding: 12px 16px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #444;
+  border: 2px solid #8fae19;
+  overflow: hidden;
+  transition: all .3s ease-in-out 0s;
   &:hover {
-    transition: all 1s ease;
-    color: #717171;
-    border-color: #717171;
+    background-color: #8fae19;
+    color: #fff;
   }
 }
 

@@ -4,59 +4,59 @@
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package zerif
  */
 
 get_header(); ?>
 <div class="clear"></div>
 </header> <!-- / END HOME SECTION  -->
 <div id="content" class="site-content">
+
+<div id="particles-js" class="particle-js">
+       <h2 class="particle__title">Portifólio</h2>          
+</div>
+
 <div class="container">
+    <div class="row">
+		<?php if ( have_posts() ) : ?>			
 
-<div class="content-left-wrap col-md-12" id="midias">
-	<div id="primary" class="content-area">
-        <div class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
-            <?php if(function_exists('bcn_display'))
-            {
-                bcn_display();
-            }?>
-        </div>
-		<main id="main" class="site-main" role="main">
+            <div id="midia-filters" class="portifolio__filters button-group">
+            <a class="btn" data-filter="*">Todos</a>
+              <?php     
+                get_the_categories();             
 
-		<?php if ( have_posts() ) : ?>
+              ?>        
+            </div>
 
-			<header class="page-header">
-				<h1 class="page-title"><?php single_cat_title(); ?></h1>
-				<?php
-					// Show an optional term description.
-					$term_description = term_description();
-					if ( ! empty( $term_description ) ) :
-						printf( '<div class="taxonomy-description">%s</div>', $term_description );
-					endif;
-				?>
-			</header><!-- .page-header -->
-            <ul id="midia-filters">
-                <li><a data-filter="*">Todos</a></li>
-                <li><a data-filter=".fotos">Fotos</a></li>
-                <li><a data-filter=".videos">Videos</a></li>
-            </ul>
-            <div class="midias-row" >
-                <?php /* Start the Loop */ ?>
-                <?php while ( have_posts() ) : the_post(); ?>
-                <?php
-                    $category = get_the_category();
-                    $cat_slug =  $category[0]->slug;
-                ?>
+            <div class="portifolio__wrapper" >
+            <?php
+              $args = array(
+                  'posts_per_page' => 12,
+                  'tax_query' => array(
+                      array(
+                          'taxonomy' => 'category',
+                          'field' => 'slug',
+                          'terms' => array("web-sites","logos", "cartoes-de-visita")
+                      )
+                   )
+              );
+            ?>
+            <?php query_posts($args); ?>
+            <?php while ( have_posts() ) : the_post(); ?>
+            <?php
+              $category = get_the_category();
+              $cat_slug =  $category[0]->slug;
+            ?>
 
-                    <div class="col-lg-4 col-md-4 col-sm-4 midia-box <?php echo $cat_slug; ?>">
+                    <div class="portifolio-box focus-box <?php echo $cat_slug; ?>">
 
-                        <div class="service-icon">
-                            <a href="<?php the_permalink()?>">
-                                <?php the_post_thumbnail(array('250','250'));?>
-                                <h5 class="title-trabalhos"><?php the_title() ?></h5>
-                            </a>
-                        </div>
+                      <div class="portifolio-itens">
+                             
+                          <a class="portifolio-box--link" href="<?php the_permalink()?>">
+                                <?php the_post_thumbnail(array('350','280'));?>
+                                <h4 class="portifolio-box--tittle"><?php the_title() ?></h4>                                
+                          </a>
 
+                      </div>
                     </div>
                 <?php endwhile; ?>   
             </div>
@@ -94,11 +94,8 @@ get_header(); ?>
 			<?php get_template_part( 'content', 'none' ); ?>
 
 		<?php endif; ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-</div><!-- .content-left-wrap -->
+        
+    </div>
 </div><!-- .container -->
 
 <?php get_footer(); ?>

@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
     $(window).load(function(){
-        var $container = $('.eventos-box').isotope({
+        var $container = $('.portifolio__wrapper').isotope({
                 itemSelector: '.focus-box',
                 layoutMode: 'fitRows',
                 animationOptions : {
@@ -31,8 +31,8 @@ jQuery(document).ready(function($) {
             return false;
         });
         
-            var $midia_container = $('.midias-row').isotope({
-                    itemSelector: '.midia-box',
+            var $midia_container = $('.portifolio__wrapper').isotope({
+                    itemSelector: '.focus-box',
                     layoutMode: 'fitRows',
                     animationOptions : {
                         duration : 750,
@@ -70,9 +70,6 @@ jQuery(document).ready(function($) {
    });
 
 });
-
-
-
 
 /*!
  * Particleground

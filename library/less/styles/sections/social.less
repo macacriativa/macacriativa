@@ -1,12 +1,105 @@
+@blue: #0084ff;
+
+.link-whatsapp {
+	.social-buttons(#229000);
+	.social__box--icon:before {
+		font-size: 26px;
+	}
+}
+
+.link-messenger {
+	.social-buttons(@blue);
+}
+
+.link-email {
+	.social-buttons(#dc9105);
+	.social__box--icon:before {
+		font-size: 20px;
+	}
+}
+
+.social-buttons(@color) {
+	.social__box--link {
+		background: @color;
+		border: 1px solid @color;
+	}
+}
+
 .social {
 	position: relative;
 	width: 100%;
-	background: rgb(124, 26, 239);
-	padding: 50px 0;
-	.social__box--link {
-		.make-md-column(3);
+	background: #fff;
+	padding: 30px 0 40px;
+	background: #f9f9f9;
+	
+	.social__wrapper {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		margin: 10px auto;
+	}
+
+	.social__box {
 		color: #fff;
 		font-size: 40px;
 		text-align: center;
+		margin-bottom: 20px;
+		.social__box--link {
+			position: relative;
+			display: block;
+			width: 240px;
+			margin: 0 auto;
+			color: white;
+			font-size: 14px;
+			border-radius: 8px;
+			padding: 10px 10px 10px 45px;
+			text-transform: uppercase;
+			text-align: center;
+			text-decoration: none;
+			letter-spacing: .025em;
+			cursor: pointer;
+			transition: inherit;
+			transition: all 50ms linear;
+			.social__box--icon,
+			&:before {
+			  position: absolute;
+			  top: 0;
+			  bottom: 0em;
+			  margin: auto 0;
+			  left: 1.4em;
+			  width: 1.5em;
+			  fill: white;
+			  height: 1.5em;
+			  display: block;
+			  transition: inherit;
+			}
+			&:hover {
+			  //color: @color;
+			  //background: transparent;
+			  .social__box--icon,
+			  &:before {
+			    //fill: @color;
+			  }
+			  &:active {
+			    transform: scale(.99);
+			  }
+			}	
+		}
+	}
+
+	.container__title(#19A1E5, #19A1E5, 22%);
+}
+
+@media (min-width: 768px) {
+	.social {
+		.social__box {
+			.make-sm-column(6);
+			.make-md-column(6);
+			margin-bottom: 0;
+		}
+	}
+	.link-whatsapp {
+		display: none;
 	}
 }

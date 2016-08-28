@@ -12,108 +12,128 @@ if (typeof getUrlVars()["globalclicktag"] !== "undefined")
                 globalClickTag = false;
             }
         }
-var slidesObjects_xxx = {width:1920, height:500, fromBorder:true, mouseoverPause:"false", autoplay:"true", preloader:"false",progressBar:"true",progressBarY:494, progressBarSize: 6, progressBarOp:0.5, progressBarBg: "#000000", progressBarColor: "#00ffff",bullets:"true",bulletsOp:0.5, bulletsLeft: 662, bulletsTop: 465, bulletsSpacing: 172, bulletWidth:20, bulletHeight:20,bulletImg:"57a7a5ec0f9c1oSEkEbSiVGdN9Etdzkw.png", focusBulletImg: "57a7a5ec3ba46UUFKKoM6eSRc8u5lcJEl.png", focusBulletActiveImg:"57a7a5ec96fdc7qcNsQsdm8nHAh0ez5xL.png", bulletActiveImg:"57a7a5ec680e3UhJqaOWeCPjmqkhJGNng.png",nextPrevious:"false",playPause: "false",wmXDistance: 8, wmYDistance: 8, wmLocation: "br", wmURL: "http://html5maker.com", wmWidth: 205, wmHeight: 20, wmImg: "57a7a5f38628eVrSdUk8MPgv8dY4dJACj.png", wmAlt: "http://html5maker.com", wmark: "true",totalTime:30, loop:true, goToUrl:'', target:'_blank', 
+var slidesObjects_xxx = {width:1440, height:550, fromBorder:true, mouseoverPause:"false", autoplay:"true", preloader:"false",progressBar:"true",progressBarY:546, progressBarSize: 4, progressBarOp:0.5, progressBarBg: "#000000", progressBarColor: "#00ffff",bullets:"true",bulletsOp:0.5, bulletsLeft: 566, bulletsTop: 512, bulletsSpacing: 124, bulletWidth:20, bulletHeight:20,bulletImg:"/wordpress/wp-content/themes/maca-criativa/banner/57bed9b0e201f8pumE4abSgXS8yZNVRkA.png", focusBulletImg: "/wordpress/wp-content/themes/maca-criativa/banner/57bed9b1141d57uC4hBlw1bIMLzr2ypq3.png", focusBulletActiveImg:"/wordpress/wp-content/themes/maca-criativa/banner/57bed9b16be57ZEUkBeAGo4ZDylMqRXhq.png", bulletActiveImg:"/wordpress/wp-content/themes/maca-criativa/banner/57bed9b13f543Z06sDoaYVjYNhO9JJdTu.png",nextPrevious:"false",playPause: "false",totalTime:24, loop:true, goToUrl:'', target:'_blank', 
 slides:[{items:[
 {id:"image0", url:"", target:"_blank",
-     rotation:0,w:1920,h:500,src:"57a7a5f7e0393s8PxsPGhHm4UYYW0RNKv.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:1920, bottom:500}, 
-      appear:{effects:["effect_item_none","effect_item_opacity"], custom_x:0, custom_y:0, x:0, y:-2, delay:0, easing:Quad.easeOut, duration:1}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:0, y:-2, delay:6, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:1920,h:553,src:"57bed9be402c8c7ePDTkMx9K7ciZiq3sw.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:1920, bottom:553}, 
+      appear:{effects:["effect_item_none","effect_item_opacity"], custom_x:0, custom_y:0, x:-323, y:-4, delay:0, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:-323, y:-4, delay:6, easing:Quad.easeOut, duration:1}}, 
 {id:"image1", url:"", target:"_blank",
-     rotation:0,w:306,h:306,src:"57a7a5f8720dc1iT1tAPAiGw33VSMxKQ9.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:306, bottom:306}, 
+     rotation:0,w:306,h:306,src:"57bed9bf4f1a6rQPN6VgDaeazt2P5tqg.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:306, bottom:306}, 
       appear:{effects:["effect_item_none","effect_item_opacity"], custom_x:0, custom_y:0, x:113, y:75, delay:0, easing:Quad.easeOut, duration:1}
       ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:113, y:75, delay:6, easing:Quad.easeOut, duration:1}}, 
 {id:"image2", url:"", target:"_blank",
-     rotation:0,w:691,h:50,src:"57a7a5f8be5afivowgWKlfdZiXsVIUgi7.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:691, bottom:50}, 
-      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:1082, y:117, delay:0.8, easing:Cubic.easeInOut, duration:0.9}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:1082, y:117, delay:5.3, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:842,h:56,src:"57bed9bfc8f13360udYcC3O6EUrFyeipX.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:842, bottom:56}, 
+      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:550, y:94, delay:0.8, easing:Cubic.easeInOut, duration:0.9}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:550, y:94, delay:5.3, easing:Quad.easeOut, duration:1}}, 
 {id:"image3", url:"", target:"_blank",
-     rotation:0,w:696,h:42,src:"57a7a5f90b209fPF8IHWfhv05pRukICvg.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:696, bottom:42}, 
-      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:1081, y:188, delay:1.5, easing:Quad.easeOut, duration:1}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:1081, y:188, delay:4.5, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:698,h:48,src:"57bed9c050fe2zW2Ikb300tagfu9aRGAQ.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:698, bottom:48}, 
+      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:555, y:165, delay:1.5, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:555, y:165, delay:4.5, easing:Quad.easeOut, duration:1}}, 
 {id:"image4", url:"", target:"_blank",
-     rotation:0,w:161,h:225,src:"57a7a5f992a91zqv3aPcoqld8EgKvQxfw.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:161, bottom:225}, 
-      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:174, y:110, delay:0.5, easing:Quad.easeOut, duration:1}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:174, y:110, delay:5.5, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:143,h:200,src:"57bed9c15c680Oc80oUk4CYduVdRqgrTA.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:143, bottom:200}, 
+      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:186, y:130, delay:0.5, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:186, y:130, delay:5.5, easing:Quad.easeOut, duration:1}}, 
 {id:"image5", url:"", target:"_blank",
-     rotation:0,w:673,h:42,src:"57a7a5f9d22db3fqP5ISZgRyuWFq2vFA1.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:673, bottom:42}, 
-      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:1082, y:239, delay:2.2, easing:Quad.easeOut, duration:1}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:1082, y:239, delay:3.8, easing:Quad.easeOut, duration:1}}, 
-{id:"image6", url:"", target:"_blank",
-     rotation:0,w:352,h:42,src:"57a7a5fa18f73KCBfChn986aKJmXyj9W2.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:352, bottom:42}, 
-      appear:{effects:["effect_item_right","effect_item_opacity"], custom_x:0, custom_y:0, x:1408, y:322, delay:2.9, easing:Quad.easeOut, duration:0.7}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:1408, y:322, delay:3.4, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:762,h:48,src:"57bed9c1ca9c06D8RgV4aHdKKfS112iek.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:762, bottom:48}, 
+      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:557, y:222, delay:2.2, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:557, y:222, delay:3.8, easing:Quad.easeOut, duration:1}}, 
+{id:"image6", url:"http%3A%2F%2Fmacacriativa.com.br%2Fservicos%2Fmidia-social", target:"_parent",
+     rotation:0,w:390,h:48,src:"57bed9c24e1b0UosofckIfOVRSEQkcA0p.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:390, bottom:48}, 
+      appear:{effects:["effect_item_right","effect_item_opacity"], custom_x:0, custom_y:0, x:949, y:314, delay:2.9, easing:Quad.easeOut, duration:0.7}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:949, y:314, delay:3.4, easing:Quad.easeOut, duration:1}}, 
 {id:"image7", url:"", target:"_blank",
-     rotation:0,w:24,h:26,src:"57a7a5fa411ccIt9wyANvnbjmgavalQBS.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:24, bottom:26}, 
+     rotation:0,w:24,h:26,src:"57bed9c2c6256mtwsUeDZ6CIGjImdJvIn.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:24, bottom:26}, 
       appear:{effects:["effect_item_custom","effect_item_opacity"], custom_x:264, custom_y:295, x:321, y:289, delay:1.4, easing:Circ.easeInOut, duration:1}
       ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:321, y:289, delay:4.6, easing:Quad.easeOut, duration:1}}, 
 {id:"image8", url:"", target:"_blank",
-     rotation:0,w:35,h:34,src:"57a7a5fa6bdefB4nmkJBpLxSihp5EC5fZ.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:35, bottom:34}, 
+     rotation:0,w:35,h:34,src:"57bed9c34bb5fj7TpxRs3QOOJxigFB9sw.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:35, bottom:34}, 
       appear:{effects:["effect_item_custom","effect_item_opacity"], custom_x:250, custom_y:295, x:178, y:275, delay:1.4, easing:Circ.easeInOut, duration:1}
       ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:178, y:275, delay:4.6, easing:Quad.easeOut, duration:1}}, 
 {id:"image9", url:"", target:"_blank",
-     rotation:0,w:41,h:59,src:"57a7a5fa96153rV8UsCzDPd4om5rE2fxl.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:41, bottom:59}, 
-      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:151, y:69, delay:1.9, easing:Quad.easeIn, duration:0.7}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:151, y:69, delay:4.4, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:41,h:59,src:"57bed9c3ca1fdkIZtELwA9rSSevorTcWe.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:41, bottom:59}, 
+      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:310, y:52, delay:1.8, easing:Quad.easeIn, duration:0.7}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:310, y:52, delay:4.5, easing:Quad.easeOut, duration:1}}, 
 {id:"image10", url:"", target:"_blank",
-     rotation:0,w:48,h:48,src:"57a7a5fabe476Jxa8fSfXnZg2HA4cAIRt.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:48, bottom:48}, 
-      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:282, y:54, delay:2.1, easing:Circ.easeInOut, duration:0.7}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:282, y:54, delay:4.2, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:24,h:18,src:"57bed9c44df78QbTWOWa54J4OdY9rsUQH.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:24, bottom:18}, 
+      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:361, y:325, delay:2.1, easing:Quad.easeOut, duration:0.8}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:361, y:325, delay:4.1, easing:Quad.easeOut, duration:1}}, 
 {id:"image11", url:"", target:"_blank",
-     rotation:0,w:60,h:60,src:"57a7a5fb2e7a1p4s95pz8cTuKCp2egABQ.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:60, bottom:60}, 
-      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:386, y:239, delay:1.9, easing:Circ.easeInOut, duration:0.8}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:386, y:239, delay:4.3, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:55,h:54,src:"57bed9c4c8e44T621nRhH2wblZSvvaMKV.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:55, bottom:54}, 
+      appear:{effects:["effect_item_left","effect_item_opacity"], custom_x:0, custom_y:0, x:97, y:255, delay:1.9, easing:Quad.easeOut, duration:0.9}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:97, y:255, delay:4.2, easing:Quad.easeOut, duration:1}}, 
 {id:"image12", url:"", target:"_blank",
-     rotation:0,w:64,h:64,src:"57a7a5fb57651HD1HHsHPSbSLn5nMzPSZ.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:64, bottom:64}, 
-      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:229, y:344, delay:1.9, easing:Quad.easeOut, duration:0.7}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:229, y:344, delay:4.4, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:54,h:54,src:"57bed9c5d0e17R68U3XUZAPNZU6RKbMux.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:54, bottom:54}, 
+      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:376, y:136, delay:1.4, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:376, y:136, delay:4.6, easing:Quad.easeOut, duration:1}}, 
 {id:"image13", url:"", target:"_blank",
-     rotation:0,w:57,h:55,src:"57a7a5fb84a29w5ZyQRgIluUFgAPJKUKr.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:57, bottom:55}, 
-      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:373, y:123, delay:1.9, easing:Quad.easeOut, duration:0.8}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:373, y:123, delay:4.3, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:55,h:55,src:"57bed9c6ca7ccNkMjfmGqVcX9ywBxBteA.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:55, bottom:55}, 
+      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:172, y:61, delay:0.4, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:172, y:61, delay:5.6, easing:Quad.easeOut, duration:1}}, 
 {id:"image14", url:"", target:"_blank",
-     rotation:0,w:24,h:18,src:"57a7a5fbafc9ba9OGEDy4QatsE443k3Bv.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:24, bottom:18}, 
-      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:346, y:339, delay:2.1, easing:Quad.easeOut, duration:0.8}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:346, y:339, delay:4.1, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:56,h:56,src:"57bed9c7cd6f5jTc22Rh4bOU27wU4A4sy.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:56, bottom:56}, 
+      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:283, y:347, delay:3, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:283, y:347, delay:3, easing:Quad.easeOut, duration:1}}, 
 {id:"image15", url:"", target:"_blank",
-     rotation:0,w:55,h:54,src:"57a7a5fbda6b3sXi2dwhEjNdWYHXntkQv.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:55, bottom:54}, 
-      appear:{effects:["effect_item_left","effect_item_opacity"], custom_x:0, custom_y:0, x:108, y:280, delay:1.9, easing:Quad.easeOut, duration:0.9}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:108, y:280, delay:4.2, easing:Quad.easeOut, duration:1}}, 
+     rotation:0,w:55,h:55,src:"57bed9ca884284nopdsb6FW5ezb9lb0la.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:55, bottom:55}, 
+      appear:{effects:["effect_item_left","effect_item_opacity"], custom_x:0, custom_y:0, x:94, y:155, delay:1.6, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:94, y:155, delay:4.4, easing:Quad.easeOut, duration:1}}, 
 {id:"image16", url:"", target:"_blank",
-     rotation:0,w:64,h:64,src:"57a7a5fc11d87vsuRuFXbMoEdZmf9WhKG.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:64, bottom:64}, 
-      appear:{effects:["effect_item_left","effect_item_opacity"], custom_x:0, custom_y:0, x:94, y:155, delay:1.7, easing:Quad.easeOut, duration:1}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:94, y:155, delay:4.3, easing:Quad.easeOut, duration:1}}],delay:1, bullet:"bullet0", slideDuration:8, slideStopPoint:4},{items:[
+     rotation:0,w:60,h:60,src:"57bed9cc1262bVM72JKeIQfRBAXT0iXXT.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:60, bottom:60}, 
+      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:383, y:234, delay:0.6, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:383, y:234, delay:5.4, easing:Quad.easeOut, duration:1}}, 
 {id:"image17", url:"", target:"_blank",
-     rotation:0,w:1920,h:500,src:"57a7a5fd8d6794ZivfsCyiphtluq5FK7Q.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:1920, bottom:500}, 
+     rotation:0,w:53,h:53,src:"57bed9cd89958rdxmBwLj8f2RuYrLFLUg.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:53, bottom:53}, 
+      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:161, y:333, delay:2, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:161, y:333, delay:4, easing:Quad.easeOut, duration:1}}],delay:1, bullet:"bullet0", slideDuration:8, slideStopPoint:4},{items:[
+{id:"image18", url:"", target:"_blank",
+     rotation:0,w:1920,h:557,src:"57bed9d11639663tkxsbPoQur9BIAQ8XU.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:1920, bottom:557}, 
+      appear:{effects:["effect_item_none","effect_item_opacity"], custom_x:0, custom_y:0, x:-192, y:-1, delay:0, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:-192, y:-1, delay:6, easing:Quad.easeOut, duration:1}}, 
+{id:"image19", url:"", target:"_blank",
+     rotation:0,w:605,h:61,src:"57bed9d1b63f3MM9wPHhAYiTnW1CEmKsX.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:605, bottom:61}, 
+      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:414, y:17, delay:0, easing:Cubic.easeInOut, duration:1.5}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:414, y:17, delay:5.5, easing:Quad.easeOut, duration:1}}, 
+{id:"image20", url:"", target:"_blank",
+     rotation:0,w:674,h:50,src:"57bed9d23fc30T4YR9oRfLo4u8N5ffqAv.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:674, bottom:50}, 
+      appear:{effects:["effect_item_scale","effect_item_opacity"], custom_x:-500, custom_y:-100, x:386, y:89, delay:1.7, easing:Quad.easeOut, duration:1.3}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:386, y:89, delay:4, easing:Quad.easeOut, duration:1}}, 
+{id:"image21", url:"", target:"_blank",
+     rotation:0,w:160,h:215,src:"57bed9d389c44jJVVfc9BE7ZKdQtsz7pH.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:160, bottom:215}, 
+      appear:{effects:["effect_item_left","effect_item_opacity"], custom_x:0, custom_y:0, x:432, y:322, delay:1.4, easing:Quart.easeInOut, duration:1.4}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:432, y:322, delay:4.2, easing:Quad.easeOut, duration:1}}, 
+{id:"image22", url:"", target:"_blank",
+     rotation:0,w:100,h:183,src:"57bed9d3e5a4eeE9oEMQtx9GUHlaoMT7J.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:100, bottom:183}, 
+      appear:{effects:["effect_item_left","effect_item_opacity"], custom_x:0, custom_y:0, x:373, y:375, delay:2.2, easing:Quart.easeInOut, duration:1.3}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:373, y:375, delay:3.5, easing:Quad.easeOut, duration:1}}, 
+{id:"image23", url:"", target:"_blank",
+     rotation:0,w:383,h:236,src:"57bed9d4cfa7chZSwFaOFFnpKNH70CC49.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:383, bottom:236}, 
+      appear:{effects:["effect_item_right","effect_item_opacity"], custom_x:0, custom_y:0, x:821, y:300, delay:2, easing:Quart.easeInOut, duration:1.4}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:821, y:300, delay:3.6, easing:Quad.easeOut, duration:1}}],delay:1, bullet:"bullet1", slideDuration:8, slideStopPoint:4},{items:[
+{id:"image24", url:"", target:"_blank",
+     rotation:0,w:1440,h:550,src:"57bed9d74dbd3xJP8oy7rGZPGYqMh2Wut.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:1440, bottom:550}, 
       appear:{effects:["effect_item_none","effect_item_opacity"], custom_x:0, custom_y:0, x:0, y:0, delay:0, easing:Quad.easeOut, duration:1}
       ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:0, y:0, delay:6, easing:Quad.easeOut, duration:1}}, 
-{id:"image18", url:"", target:"_blank",
-     rotation:0,w:463,h:55,src:"57a7a5fdd93e1tzqP7I891AJBW5iQyOdg.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:463, bottom:55}, 
-      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:742, y:10, delay:0.8, easing:Cubic.easeInOut, duration:0.9}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:742, y:10, delay:5.3, easing:Quad.easeOut, duration:1}}, 
-{id:"image19", url:"", target:"_blank",
-     rotation:0,w:551,h:42,src:"57a7a5fe26135KpDPYahF5WgBauNjaeL1.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:551, bottom:42}, 
-      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:677, y:62, delay:1.5, easing:Quad.easeOut, duration:1}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:677, y:62, delay:4.5, easing:Quad.easeOut, duration:1}}],delay:1, bullet:"bullet1", slideDuration:8, slideStopPoint:4},{items:[
-{id:"image20", url:"", target:"_blank",
-     rotation:0,w:1920,h:500,src:"57a7a5ff714afjNdItmBFTkb6hwOsEJSA.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:1920, bottom:500}, 
-      appear:{effects:["effect_item_none","effect_item_opacity"], custom_x:0, custom_y:0, x:3, y:0, delay:0, easing:Quad.easeOut, duration:1}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:3, y:0, delay:6, easing:Quad.easeOut, duration:1}}, 
-{id:"image21", url:"", target:"_blank",
-     rotation:0,w:1000,h:50,src:"57a7a5ffd9aa36W5VEE9DGdoC1BtFhEEd.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:1000, bottom:50}, 
-      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:257, y:178, delay:0.4, easing:Cubic.easeInOut, duration:1.6}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:257, y:178, delay:5, easing:Quad.easeOut, duration:1}}, 
-{id:"image22", url:"", target:"_blank",
-     rotation:0,w:951,h:42,src:"57a7a60022643Cvw6UFkBXWRghveXmMtC.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:951, bottom:42}, 
-      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:289, y:254, delay:1.3, easing:Quart.easeInOut, duration:1.5}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:289, y:254, delay:4.2, easing:Quad.easeOut, duration:1}}, 
-{id:"image23", url:"", target:"_blank",
-     rotation:0,w:340,h:42,src:"57a7a60053124cbxzhBw3XH76VwzYAxnh.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:340, bottom:42}, 
-      appear:{effects:["effect_item_bottom","effect_item_opacity"], custom_x:0, custom_y:0, x:568, y:331, delay:2.9, easing:Quad.easeOut, duration:0.7}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:568, y:331, delay:3.4, easing:Quad.easeOut, duration:1}}],delay:1, bullet:"bullet2", slideDuration:8, slideStopPoint:4},{items:[
-{id:"image24", url:"", target:"_blank",
-     rotation:0,w:1920,h:500,src:"57a7a6020b5d8s2qsSPePrWKaLpuSqL9y.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:1920, bottom:500}, 
-      appear:{effects:["effect_item_none","effect_item_opacity"], custom_x:0, custom_y:0, x:0, y:0, delay:0, easing:Quad.easeOut, duration:1}
-      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:0, y:0, delay:4, easing:Quad.easeOut, duration:1}}],delay:1, bullet:"bullet3", slideDuration:6, slideStopPoint:3}]},id='html512f6d577ea0030152529ef3206dd8d6a929e15fec01c', ratio = 1;
+{id:"image25", url:"", target:"_blank",
+     rotation:0,w:512,h:62,src:"57bed9d7d0459mjuP0Mxpx3Gb5R0obx6W.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:512, bottom:62}, 
+      appear:{effects:["effect_item_top","effect_item_opacity"], custom_x:0, custom_y:0, x:501, y:17, delay:0.4, easing:Cubic.easeInOut, duration:1.6}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:501, y:17, delay:4.5, easing:Quad.easeOut, duration:1}}, 
+{id:"image26", url:"", target:"_blank",
+     rotation:0,w:992,h:58,src:"57bed9d8603c3ro9NPm96X0KOQRgOBM9G.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:992, bottom:58}, 
+      appear:{effects:["effect_item_scale","effect_item_opacity"], custom_x:0, custom_y:0, x:232, y:98, delay:1.6, easing:Quart.easeInOut, duration:2.4}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:232, y:98, delay:3, easing:Quad.easeOut, duration:1}}, 
+{id:"image27", url:"", target:"_blank",
+     rotation:0,w:332,h:226,src:"57bed9dac9b8dt03BpzfQKDrmro3oL9s4.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:332, bottom:226}, 
+      appear:{effects:["effect_item_right","effect_item_opacity"], custom_x:0, custom_y:0, x:1096, y:295, delay:1.3, easing:Quad.easeOut, duration:1.5}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:1096, y:295, delay:4.2, easing:Quad.easeOut, duration:1}}, 
+{id:"image28", url:"", target:"_blank",
+     rotation:0,w:349,h:203,src:"57bed9dbb0843YFJF88PBHCSpaGem1ZS7.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:349, bottom:203}, 
+      appear:{effects:["effect_item_left","effect_item_opacity"], custom_x:0, custom_y:0, x:3, y:239, delay:2.2, easing:Quad.easeOut, duration:1}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:3, y:239, delay:3.8, easing:Quad.easeOut, duration:1}}, 
+{id:"image29", url:"", target:"_blank",
+     rotation:0,w:364,h:258,src:"57bed9dcc7dbeE9DQdkW3rhk5t9ideF4O.png", rotationRect:{left:0, top:0}, rect:{left:0, top:0, right:364, bottom:258}, 
+      appear:{effects:["effect_item_left","effect_item_opacity"], custom_x:0, custom_y:0, x:300, y:279, delay:0.5, easing:Quad.easeOut, duration:1.9}
+      ,disappear:{effects:["effect_item_none","effect_item_opacity"],custom_x:0, custom_y:0, x:300, y:279, delay:4.6, easing:Quad.easeOut, duration:1}}],delay:1, bullet:"bullet2", slideDuration:8, slideStopPoint:4}]},id='html512f6d577ea0030152529ef3206dd8d6a929e15fec01c', ratio = 1;
 
 var $status = document.getElementById("statusbar"); // progress bar
 var $statusHolder = document.getElementById("statusbar_wrapper"); // progress bar
@@ -272,7 +292,7 @@ function onReady() {
         addWatermark();
     }
     if (slidesObjects_xxx.progressBar == "true") {
-      readjustProgress();
+    	readjustProgress();
     }
     hidePreloader();
     onHideNextPrev();
@@ -1081,8 +1101,8 @@ function initGoToUrl(item, url, target)
              }catch(err) {}
               if (clickTag !== "")
               {
-               window.open(clickTag); 
-               return; 
+	             window.open(clickTag); 
+	             return; 
               }
              if (!globalClickTag && typeof getUrlVars()["clickTag"] !== "undefined")
              {
