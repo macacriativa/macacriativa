@@ -50,14 +50,14 @@
 
 	if (isMobile.Android()) {
 
-	  document.getElementById("whatsapp").href = "intent://send/+5512982753962#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end";
+	  document.getElementById("whatsapp").href = "intent://send/+5512981433344#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end";
 
 	} else if (isMobile.iOS()) {
 
-	  document.getElementById("whatsapp").href = "tel:+5512982753962";
+	  document.getElementById("whatsapp").href = "tel:+5512981433344";
 
 	} else {
-	  document.getElementById("whatsapp").href = "tel:+5512982753962";
+	  document.getElementById("whatsapp").href = "tel:+5512981433344";
 
 	}
 

@@ -21,7 +21,7 @@ get_header();
 					<p class="page-servicos__text">
 						Sua empresa não tem um site? Relaxa que resolvemos isso para você. Fazemos a criação de site para todos os tipos de dispositivos.
 					</p>					
-					<a href="<?php echo get_site_url()."/servicos/criacao-de-sites"?>" title="aiba mais sobre a Criação de Sites" class="services__box--read-more text-center">Sabia Mais</a>	
+					<a href="<?php echo get_site_url()."/servicos/criacao-de-sites"?>" title="aiba mais sobre a Criação de Sites" class="services__box--read-more text-center">Clique aqui e saiba mais</a>	
 				</div>
 
 				<div class="page-servicos__description">
@@ -32,13 +32,9 @@ get_header();
 					<a href="<?php echo get_site_url()."/servicos/design-grafico"?>" title="aiba mais sobre a Criação de Sites" class="services__box--read-more text-center">Clique aqui e saiba mais</a>			
 				</div>
 				
-				<div class="page-servicos__img--laptop"></div>
+				<div class="page-servicos__img--design-grafico"></div>
 				
-				<div class="page-servicos__img--smartphone">
-					<div class="page-servicos__hover">
-						<div class="page-servicos__hover--img"></div>
-					</div>
-				</div>	
+				<div class="page-servicos__img--social-media"></div>	
 
 				<div class="page-servicos__description">
 					<h3 class="page-servicos__title">Mídias Sociais</h3>

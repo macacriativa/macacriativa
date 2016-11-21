@@ -23,7 +23,9 @@
 }
 
 .dev-details__title {
-	font-weight: 700;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-bottom: 16px;
 }
 
 .dev-details__text {
@@ -33,7 +35,7 @@
 .dev-details__img--smartphone {
 	position: relative;
 	background-image: url('../images/iphone.png');
-	width: 340px;
+	width: 280px;
 	height: 315px;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -41,9 +43,9 @@
 }
 
 .dev-details__img--laptop {
-	background-image: url('../images/ipad.png');
+	background-image: url('../images/midias-sociais.png');
 	width: 340px;
-	height: 220px;
+	height: 350px;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -70,8 +72,7 @@
 		background-attachment: scroll;
 	    background-repeat: no-repeat;
 	    background-size: 100%;	    
-	    background-position: center 0;
-	   	
+	    background-position: center 0;	   	
 	}
 
 }
@@ -87,14 +88,19 @@
 
 
 @media(min-width: 768px) {
+	.dev-details__img--smartphone {
+		width: 340px;
+	}
+
 	.dev-details__hover {
 		width: 108px;
 		height: 192px;
-		margin: 168px auto 0;
+		margin: 69px auto 0;
 
 		.dev-details__hover--img {
 			width: 108px;
-
+			height: 4346px;
+			transition: background-position 18s ease 0s;
 			&:hover {
 				background-position: center -100%;
 			}
@@ -120,7 +126,7 @@
 
 	.dev-details__img--laptop {
 		width: 411px;
-		height: 248px;
+		height: 420px;
 	}
 
 	.dev-details__hover {
@@ -130,7 +136,7 @@
 
 		.dev-details__hover--img {
 			width: 160px;
-			height: 4665px;
+			height: 6433px;
 		}
 	}
 }

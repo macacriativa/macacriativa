@@ -87,13 +87,13 @@ a:hover {
 
 .particle-js {
 	position: relative;
-	height: 180px;
+	height: 120px;
 	display: block;
-	background: #1969e5;
+	background: #19a1e5;
 	margin-bottom: 35px;
 
 	.particle__title {
-		position: absolute;
+		position: relative;
 		top: 0;
 		left: 0;
 		bottom: 0;
@@ -103,7 +103,12 @@ a:hover {
 		color: #fff;
 		margin: auto;
 		text-align: center;
-		line-height: 180px;
+		line-height: 120px;
+		margin-top: 60px;
+	}
+
+	canvas {
+		display: none;
 	}
 }
 
@@ -118,9 +123,43 @@ a:hover {
 	}
 }
 
-
 @media (min-width: 992px) {
 	.container.container-single {
 		width: 970px;
-	}	
+	}
+
+	.particle-js {
+		height: 180px;
+
+		.particle__title {
+			position: absolute;
+			line-height: 180px;
+			margin-top: 0;
+		}
+
+		canvas {
+			display: block;
+		}
+
+	}
 }
+
+
+// Serviços
+.services--text {
+	font-size: 19px;
+}
+
+.services__wrapper {
+	position: relative;
+	display: block;	
+}
+
+// .design-grafico--bg {
+// 	position: relative;
+// 	background-image: url("../images/design-grafico-paleta.jpg");
+// 	background-position: 50% 0;
+//     background-repeat: repeat;
+// 	background-attachment: fixed;
+// }
+

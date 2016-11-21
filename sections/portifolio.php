@@ -4,7 +4,7 @@
   		<div class="container" data-scrollreveal="enter left after 0.15s over 1s">
   			
 
-  			<h2 class="container__title">Portifólio</h2>
+  			<h2 class="container__title">Portfólio</h2>
 
             <div id="filters" class="portifolio__filters button-group">
             <a class="btn" data-filter="*">Todos</a>
@@ -22,7 +22,7 @@
                         array(
                             'taxonomy' => 'category',
                             'field' => 'slug',
-                            'terms' => array("web-sites","logos", "cartoes-de-visita")
+                            'terms' => array("web-sites","logos", "cartoes-de-visita", "flyers")
                         )
                      )
                 );
@@ -47,10 +47,10 @@
               </div>
             </div>
 
-  					<?php endwhile; ?>              
+  					<?php endwhile; ?>
   			</div>
                 
-        <a href="<?php echo getCategoryLink('portifolio'); ?>" title="Veja nosso portifólio completo" class="portifolio__ver-mais btn">Ver Mais</a>          
+        <a href="<?php echo getCategoryLink('portfolio'); ?>" title="Veja nosso portifólio completo" class="portifolio__ver-mais btn">Ver Mais</a>          
         
 
   		</div>		

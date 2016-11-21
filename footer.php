@@ -23,18 +23,13 @@
 
 		<?php wp_enqueue_script( 'jquery' ); ?>
 
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
 		<script type='text/javascript' src='<?php echo get_stylesheet_uri(); ?>/../library/js/isotope.pkgd.min.js?ver=2.2.0'></script>
-		
-		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+
+		<script type='text/javascript' src='<?php echo get_stylesheet_uri(); ?>/../library/js/jquery.validate.min.js?ver=2.2.0'></script>
 		
 		<script type='text/javascript' src='<?php echo get_stylesheet_uri(); ?>/../library/js/contact.js?ver=2.2.0'></script>
 
 		<script type='text/javascript' src='<?php echo get_stylesheet_uri(); ?>/../library/js/isotope-config.js?ver=2.2.0'></script>
-
-
-		<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 
 		<script type='text/javascript' src='<?php echo get_stylesheet_uri(); ?>/../library/js/particle.js?ver=2.2.0'></script>
 

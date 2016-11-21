@@ -13,14 +13,26 @@ get_header();
 	
 	<div class="container">
 		<div class="row">
-			<div class="page-servicos__wrapper">
-				<div class="page-servicos__img--laptop"></div>
+			<div class="services__wrapper">
+				<div class="services--description">
+					<p class="services--text">
+						Hoje a maior parte das pessoas estão com seus smartphones conectados as redes sociais o dia todo, através da praticidade das redes
+						móveis é possível estar sempre conectado ao Facebook, Instagram, WhatsApp entre outros.
+					</p>
+					
+					<p class="services--text">
+						Com todo esse crescimento das redes sociais fez com que elas se tornassem uma ótima ferramenta para divulgar seus serviços ou marca,
+						afinal se toda a população esta conectada o seu cliente tambem estará.
+						Então porque não investir em divulgação para midias sociais?!
+					</p>
 
-				<div class="page-servicos__description">
-					<h3 class="page-servicos__title">Criação de sites</h3>
-					<p class="page-servicos__text">
-						Sua empresa não tem um site? Relaxa que resolvemos isso para você. Fazemos a criação de site para todos os tipos de dispositivos.
-					</p>					
+					<p class="services--text">
+						O Maça Criativa vai trabalhar a melhor estratégia para alcancar seus clientes. Temos várias opções de divulgação para voce escolher.
+					</p>
+
+					<p class="services--text">
+						Entre em contato conosco e <a href="<?php echo get_site_url()."/contato"?>">saiba mais</a> 
+					</p>
 					
 				</div>						
 			</div>

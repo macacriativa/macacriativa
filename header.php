@@ -28,9 +28,8 @@
 		<div class="container">
 		    <div class="row">
 		        <div class="header__top--social">
-		            <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
-		            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
-		            <a href="https://www.youtube.com"><i class="fa fa-instagram"></i></a>
+		            <a href="https://facebook.com/amacacriativa" target="_blank"><i class="fa fa-facebook"></i></a>
+		            <a href="https://www.instagram.com/macacriativa/" target="_blank"><i class="fa fa-instagram"></i></a>
 		        </div>
 
 		        <div class="header__top--contact hidden-xs">
@@ -62,7 +61,7 @@
                                 </a>   
                             </li>
                             <li>
-                                <a href="<?php echo getCategoryLink('portifolio'); ?>" class="hvr-underline-from-center">Portifólio</a>
+                                <a href="<?php echo getCategoryLink('portfolio'); ?>" class="hvr-underline-from-center">Portfólio</a>
                             </li>
                             <li>
                                 <a href="<?php echo get_site_url()."/servicos"?>" class="hvr-underline-from-center">Serviços</a>
